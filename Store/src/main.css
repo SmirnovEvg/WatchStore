@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Exo-Light";
+  src: url("./fonts/Exo2-Light.ttf");
+}
+
+@font-face {
+  font-family: "Exo-Thin";
+  src: url("./fonts/Exo2-Thin.ttf");
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.view-container {
+  margin-top: 20px;
+}
+
+.watchProduct {
+  cursor: default;
+}
+
+.watchProduct:focus {
+  outline: none;
+}
+
+.inLine .inLine-list {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.inLine-list .thumbnail .caption {
+  z-index: 40;
+}
+
+.inLine-list {
+  height: 330px;
+}
+
+.inLine-list:hover {
+  border: 0.3px solid #a7a7a7;
+  border-radius: 10px;
+}
+
+.inLine-list .thumbnail img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  overflow: hidden;
+  border: none;
+}
+
+.thumbnail img {
+  /* width: 100%;*/
+  display: inline-block !important;
+  border: none;
+}
+
+.thumbnail {
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.img-thumbnail {
+  background-color: #fafafa;
+  border: none;
+}
+
+.inLine-list .thumbnail .caption {
+  position: relative;
+  z-index: 40;
+}
+
+.caption {
+  height: 130px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.caption h4 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Exo-Thin";
+}
+
+.caption span h4 {
+  font-family: "Exo-Thin";
+  margin: 5px 0px;
+}
+
+.buyBtn {
+  margin: 5px auto;
+  font-family: "Exo-Thin";
+  font-size: 1.4em;
+  background-color: #fafafa;
+  border: none;
+}
+
+.buyBtn:hover {
+  opacity: 0.75;
+  border-radius: 7px;
+  background-color: #f0f0f0;
+}
+
+.prise {
+  background-color: #3fadce;
+  width: 75px;
+  margin: 0 auto;
+  border-radius: 8px;
+  color: #fff;
+  margin: 3px auto;
+}

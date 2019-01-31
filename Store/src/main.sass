@@ -1,0 +1,102 @@
+@font-face
+  font-family: "Exo-Light"
+  src: url("./fonts/Exo2-Light.ttf")
+
+@font-face
+  font-family: "Exo-Thin"
+  src: url("./fonts/Exo2-Thin.ttf") 
+
+$bgc-color: #fafafa
+$main-color: #3fadce
+$foot-color: #a7a7a7
+$f-thin: 'Exo-Thin'
+$f-light: 'Exo-Light'
+
+    
+body 
+    background-color: $bgc-color
+
+.view-container
+    margin-top: 20px
+
+.watchProduct
+    cursor: default
+    &:focus 
+        outline: none
+
+.inLine .inLine-list
+    display: inline-block
+    float: none
+    vertical-align: top
+
+.inLine-list .thumbnail .caption
+    position:relative
+    z-index: 40
+
+.inLine-list
+    height: 330px
+    &:hover
+        border: 0.3px solid $foot-color
+        border-radius: 10px
+
+.inLine-list .thumbnail img
+    width: 100%
+    margin-top: 10px
+
+
+.thumbnail
+    overflow: hidden
+    border: none
+
+.thumbnail img 
+    /* width: 100%;*/
+    display:inline-block !important
+    border: none
+
+.thumbnail 
+    padding: 0
+    background-color: $bgc-color
+
+.img-thumbnail
+    background-color: $bgc-color
+    border: none
+
+.inLine-list .thumbnail .caption
+    position: relative
+    z-index: 40
+
+.caption 
+    height: 130px
+    overflow: hidden
+    display: flex
+    justify-content: center
+    flex-direction: column
+
+.caption h4 
+    text-align: center
+    margin-top: 0
+    margin-bottom: 0
+    font-family: $f-thin
+
+.caption span h4 
+    font-family: $f-thin
+    margin: 5px 0px
+
+.buyBtn
+    margin: 5px auto
+    font-family: $f-thin
+    font-size: 1.4em
+    background-color: $bgc-color
+    border: none
+    &:hover
+        opacity: 0.75
+        border-radius: 7px
+        background-color: darken($bgc-color, 4)
+
+.prise
+    background-color: $main-color
+    width: 75px
+    margin: 0 auto
+    border-radius: 8px
+    color: #fff
+    margin: 3px auto
