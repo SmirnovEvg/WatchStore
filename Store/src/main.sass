@@ -19,15 +19,11 @@ body
 .view-container
     margin-top: 20px
 
-.watchProduct
-    cursor: default
-    &:focus 
-        outline: none
-
 .inLine .inLine-list
     display: inline-block
     float: none
     vertical-align: top
+    box-sizing: border-box
 
 .inLine-list .thumbnail .caption
     position:relative
@@ -72,7 +68,14 @@ body
     justify-content: center
     flex-direction: column
 
-.caption h4 
+a 
+    color: #000
+    &:hover
+        text-decoration: none
+        color: #000
+
+.caption h4
+    font-size: 1.3em
     text-align: center
     margin-top: 0
     margin-bottom: 0
@@ -81,9 +84,11 @@ body
 .caption span h4 
     font-family: $f-thin
     margin: 5px 0px
+    font-size: 1.1em
 
 .buyBtn
     margin: 5px auto
+    cursor: pointer
     font-family: $f-thin
     font-size: 1.4em
     background-color: $bgc-color
