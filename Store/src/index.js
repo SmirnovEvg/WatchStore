@@ -13,6 +13,7 @@ import {Provider} from 'react-redux'
 import reducers from 'reducers'
 import Layout from 'containers/layout'
 import Watches from 'containers/watches'
+import Watch from 'containers/watch'
 
 const store = createStore(reducers, composeWithDevTools(
     applyMiddleware(thunk)
@@ -26,6 +27,7 @@ ReactDOM.render(
             <Route component={Layout}>
                 <Route path='/' component={Watches} />
             </Route>
+            <Route path='/watches/:id' component={Watch}/>
         </Router>
     </Provider>,
     document.getElementById('root')
