@@ -1,5 +1,5 @@
-import './main.css'
-import './media-quaries.css'
+import './css/main.css'
+import './css/media-quaries.css'
 
 import React from 'react'
 import ReactDOM from 'react-dom'

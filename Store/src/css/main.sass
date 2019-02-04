@@ -1,10 +1,10 @@
 @font-face
   font-family: "Exo-Light"
-  src: url("./fonts/Exo2-Light.ttf")
+  src: url("../fonts/Exo2-Light.ttf")
 
 @font-face
   font-family: "Exo-Thin"
-  src: url("./fonts/Exo2-Thin.ttf") 
+  src: url("../fonts/Exo2-Thin.ttf") 
 
 $bgc-color: #fafafa
 $main-color: #3fadce
@@ -32,7 +32,9 @@ body
 .inLine-list
     height: 330px
     &:hover
-        border: 0.3px solid $foot-color
+        border-style: solid
+        border-color: $foot-color
+        border-width: 1px
         border-radius: 10px        
 
 .inLine-list .thumbnail img
