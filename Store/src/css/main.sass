@@ -6,11 +6,16 @@
   font-family: "Exo-Thin"
   src: url("../fonts/Exo2-Thin.ttf") 
 
+@font-face
+  font-family: "Exo-Regular"
+  src: url("../fonts/Exo2-Regular.ttf") 
+
 $bgc-color: #fafafa
 $main-color: #3fadce
 $foot-color: #a7a7a7
 $f-thin: 'Exo-Thin'
 $f-light: 'Exo-Light'
+$f-regular: 'Exo-Regular'
 
     
 body 
@@ -40,7 +45,6 @@ body
 .inLine-list .thumbnail img
     width: 100%
     margin-top: 10px
-
 
 .thumbnail
     overflow: hidden
@@ -107,3 +111,11 @@ a
     border-radius: 8px
     color: #fff
     margin: 3px auto
+
+.fields
+    h2 
+        font-family: $f-regular
+    p 
+        font-family: $f-thin
+        font-size: 1.25em
+        margin-bottom: 5px

@@ -1,59 +1,79 @@
 @font-face {
   font-family: "Exo-Light";
-  src: url("../fonts/Exo2-Light.ttf"); }
+  src: url("../fonts/Exo2-Light.ttf");
+}
 
 @font-face {
   font-family: "Exo-Thin";
-  src: url("../fonts/Exo2-Thin.ttf"); }
+  src: url("../fonts/Exo2-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Exo-Regular";
+  src: url("../fonts/Exo2-Regular.ttf");
+}
 
 body {
-  background-color: #fafafa; }
+  background-color: #fafafa;
+}
 
 .view-container {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .inLine .inLine-list {
   display: inline-block;
   float: none;
   vertical-align: top;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .inLine-list .thumbnail .caption {
-  z-index: 40; }
+  z-index: 40;
+}
 
 .inLine-list {
-  height: 330px; }
-  .inLine-list:hover {
-    border-style: solid;
-    border-color: #a7a7a7;
-    border-width: 1px;
-    border-radius: 10px; }
+  height: 330px;
+}
+
+.inLine-list:hover {
+  border-style: solid;
+  border-color: #a7a7a7;
+  border-width: 1px;
+  border-radius: 10px;
+}
 
 .inLine-list .thumbnail img {
   width: 100%;
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 .thumbnail {
   overflow: hidden;
-  border: none; }
+  border: none;
+}
 
 .thumbnail img {
   /* width: 100%;*/
   display: inline-block !important;
-  border: none; }
+  border: none;
+}
 
 .thumbnail {
   padding: 0;
-  background-color: #fafafa; }
+  background-color: #fafafa;
+}
 
 .img-thumbnail {
   background-color: #fafafa;
-  border: none; }
+  border: none;
+}
 
 .inLine-list .thumbnail .caption {
   position: relative;
-  z-index: 40; }
+  z-index: 40;
+}
 
 .caption {
   height: 130px;
@@ -67,25 +87,31 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 a {
-  color: #000; }
-  a:hover {
-    text-decoration: none;
-    color: #000; }
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
 
 .caption h4 {
   font-size: 1.3em;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Exo-Thin"; }
+  font-family: "Exo-Thin";
+}
 
 .caption span h4 {
   font-family: "Exo-Thin";
   margin: 5px 0px;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+}
 
 .buyBtn {
   margin: 5px auto;
@@ -93,11 +119,14 @@ a {
   font-family: "Exo-Thin";
   font-size: 1.4em;
   background-color: #fafafa;
-  border: none; }
-  .buyBtn:hover {
-    opacity: 0.75;
-    border-radius: 7px;
-    background-color: #f0f0f0; }
+  border: none;
+}
+
+.buyBtn:hover {
+  opacity: 0.75;
+  border-radius: 7px;
+  background-color: #f0f0f0;
+}
 
 .prise {
   background-color: #3fadce;
@@ -105,4 +134,15 @@ a {
   margin: 0 auto;
   border-radius: 8px;
   color: #fff;
-  margin: 3px auto; }
+  margin: 3px auto;
+}
+
+.fields h2 {
+  font-family: "Exo-Regular";
+}
+
+.fields p {
+  font-family: "Exo-Thin";
+  font-size: 1.25em;
+  margin-bottom: 5px;
+}
