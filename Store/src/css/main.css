@@ -220,3 +220,45 @@ a:hover {
   color: #fff;
   opacity: 0.9;
 }
+
+.search {
+  margin-top: 15px;
+  border: 1px solid #a7a7a7;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 3px 10px 5px 10px;
+}
+
+.search form {
+  width: 100%;
+}
+
+.searchInput {
+  width: 205px;
+  background-color: #fafafa;
+  border: 0;
+  outline: none;
+  font-family: "Exo-Thin";
+  color: #000;
+}
+
+.searchButton {
+  float: right;
+  cursor: pointer;
+  background-color: #fafafa;
+  border: 0;
+  outline: none;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+}
+
+.searchButton img {
+  width: 100%;
+  height: auto;
+}

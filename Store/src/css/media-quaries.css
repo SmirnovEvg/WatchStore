@@ -39,6 +39,18 @@
   .btn_toStore {
     font-size: 1em;
   }
+  .search {
+    margin-top: 10px;
+    padding: 3px 10px 6px 10px;
+  }
+  .searchInput {
+    width: 160px;
+    font-size: 0.9em;
+  }
+  .searchButton {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -83,6 +95,18 @@
   }
   .btn_toStore {
     font-size: 0.7em;
+  }
+  .search {
+    margin-top: 7px;
+    padding: 0 7px 3px 7px;
+  }
+  .searchInput {
+    width: 105px;
+    font-size: 0.8em;
+  }
+  .searchButton {
+    width: 15px;
+    height: 15px;
   }
 }
 
@@ -133,6 +157,18 @@
     font-size: 1.4em;
     margin-bottom: 50px;
   }
+  .search {
+    margin-top: 7px;
+    padding: 0 7px 3px 7px;
+  }
+  .searchInput {
+    width: 70px;
+    font-size: 0.7em;
+  }
+  .searchButton {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -165,7 +201,7 @@
     padding-left: 30px;
     width: 87%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .sidebar p {
     margin: 0;
@@ -192,6 +228,20 @@
     margin-bottom: 2px;
     margin-left: 7%;
     font-size: 1.4em;
+  }
+  .search {
+    margin: 0 auto 15px auto;
+    width: 87%;
+    margin-top: 7px;
+    padding: 5px 10px 7px 10px;
+  }
+  .searchInput {
+    width: 90%;
+    font-size: 1.1em;
+  }
+  .searchButton {
+    width: 25px;
+    height: 25px;
   }
 }
 
@@ -244,6 +294,18 @@
     margin-bottom: 2px;
     margin-left: 0;
     font-size: 1.4em;
+  }
+  .search {
+    width: 100%;
+    padding: 5px 10px 7px 10px;
+  }
+  .searchInput {
+    width: 90%;
+    font-size: 1.1em;
+  }
+  .searchButton {
+    width: 25px;
+    height: 25px;
   }
 }
 
