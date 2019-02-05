@@ -146,3 +146,75 @@ a:hover {
   font-size: 1.25em;
   margin-bottom: 5px;
 }
+
+.sidebar {
+  width: 100%;
+  background-color: #3fadce;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sidebar p {
+  margin: 0;
+  font-family: "Exo-Light";
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+.sidebar_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sidebar:hover {
+  opacity: 0.9;
+}
+
+.product_info {
+  margin-top: 15px;
+  font-family: "Exo-Regular";
+}
+
+.product_info h5 {
+  margin-bottom: 2px;
+}
+
+.btn_AddToCart {
+  width: 100%;
+  border: 0;
+  background-color: #3fadce;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Exo-Thin";
+  padding: 2px 0 5px 0;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.btn_AddToCart:hover {
+  opacity: 0.9;
+}
+
+.btn_toStore {
+  width: 100%;
+  border: 0;
+  background-color: #a7a7a7;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Exo-Thin";
+  padding: 2px 0 5px 0;
+  font-size: 1.2em;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+
+.btn_toStore:hover {
+  color: #fff;
+  opacity: 0.9;
+}
