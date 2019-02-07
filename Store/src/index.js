@@ -26,6 +26,7 @@ ReactDOM.render(
         <Router history={history}>
             <Route component={Layout}>
                 <Route path='/' component={Watches} />
+                <Route path='categories/:id' component={Watches} />
             </Route>
             <Route path='/watches/:id' component={Watch}/>
         </Router>

@@ -262,3 +262,25 @@ a:hover {
   width: 100%;
   height: auto;
 }
+
+.categories-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.categories-list-item {
+  background-color: gray;
+}
+
+.categories-list-item:hover {
+  background-color: red;
+}
+
+.active {
+  background-color: green;
+}
