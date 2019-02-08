@@ -329,3 +329,20 @@ a:hover {
 .active {
   padding-left: 10px;
 }
+
+.first-table-column {
+  width: 150px;
+}
+
+.basket-list-table {
+  width: 100%;
+}
+
+.basket-list-table-item {
+  text-align: center;
+}
+
+.total-prise {
+  text-align: right;
+  width: 100%;
+}

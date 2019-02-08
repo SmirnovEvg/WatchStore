@@ -14,6 +14,7 @@ import reducers from 'reducers'
 import Layout from 'containers/layout'
 import Watches from 'containers/watches'
 import Watch from 'containers/watch'
+import Basket from 'containers/basket'
 
 const store = createStore(reducers, composeWithDevTools(
     applyMiddleware(thunk)
@@ -29,6 +30,7 @@ ReactDOM.render(
                 <Route path='categories/:id' component={Watches} />
             </Route>
             <Route path='/watches/:id' component={Watch}/>
+            <Route path='/basket' component={Basket} />
         </Router>
     </Provider>,
     document.getElementById('root')
