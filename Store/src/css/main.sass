@@ -37,6 +37,11 @@ body
 
 .inLine-list
     height: 330px
+    transition: 0.3s all ease
+    border-style: solid
+    border-color: $bgc-color
+    border-width: 1px
+    border-radius: 10px
     &:hover
         border-style: solid
         border-color: $foot-color
@@ -100,6 +105,13 @@ a
     font-size: 1.4em
     background-color: $bgc-color
     border: none
+    transition: 0.5s all ease
+    display: flex
+    align-items: center
+    padding-bottom: 3px
+    & img 
+        width: 20px !important
+        margin: 0 5px 8px 0
     &:hover
         opacity: 0.75
         border-radius: 7px
@@ -126,6 +138,7 @@ a
     background-color: $main-color
     border-radius: 10px
     padding: 10px
+    transition: 0.5s opacity ease
     p 
         margin: 0
         font-family: $f-light
@@ -154,6 +167,7 @@ a
     font-size: 1.2em
     cursor: pointer
     margin: 10px 0
+    transition: 0.5s opacity ease
     &:hover
         opacity: 0.9
 
@@ -169,6 +183,7 @@ a
     color: #fff
     display: block
     text-align: center
+    transition: 0.5s all ease
     &:hover
         color: #fff
         opacity: 0.9
@@ -205,13 +220,24 @@ a
         width: 100%
         height: auto
 
-.categories-list
-    display: flex
-    flex-direction: column
-    &-item 
-        background-color: gray
-        &:hover
-            background-color: red
+.categories
+    margin-top: 15px
+    border: 1px solid #a7a7a7
+    border-radius: 10px
+    padding: 10px 20px 30px 15px
+    font-family: $f-thin
+    &-list
+        display: flex
+        flex-direction: column
+        margin-left: 17px
+        &-item 
+            padding: 8px 0 0 2px
+            font-size: 1.2em
+            border-bottom: 1px solid #a7a7a7
+            transition: 0.3s padding-left ease
+            &:hover
+                padding-left: 10px
+                
 
 .active
-    background-color: green
+    padding-left: 10px
