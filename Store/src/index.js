@@ -15,6 +15,7 @@ import Layout from 'containers/layout'
 import Watches from 'containers/watches'
 import Watch from 'containers/watch'
 import Basket from 'containers/basket'
+import MainPage from 'containers/mainpage'
 
 const store = createStore(reducers, composeWithDevTools(
     applyMiddleware(thunk)
@@ -25,8 +26,9 @@ const history = syncHistoryWithStore(browserHistory, store)
 ReactDOM.render(
     <Provider store={store}>
         <Router history={history}>
+            <Route path='/' component={MainPage}/>
             <Route component={Layout}>
-                <Route path='/' component={Watches} />
+                <Route path='/catalog' component={Watches} />
                 <Route path='categories/:id' component={Watches} />
             </Route>
             <Route path='/watches/:id' component={Watch}/>

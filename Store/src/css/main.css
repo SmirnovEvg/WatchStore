@@ -331,7 +331,7 @@ a:hover {
 }
 
 .first-table-column {
-  width: 150px;
+  width: 120px;
 }
 
 .basket-list-table {
@@ -340,9 +340,69 @@ a:hover {
 
 .basket-list-table-item {
   text-align: center;
+  font-family: "Exo-Regular";
+  font-size: 1.2em;
+  border-top: 1px solid #a7a7a7;
+  border-bottom: 1px solid #a7a7a7;
 }
 
 .total-prise {
   text-align: right;
   width: 100%;
+  margin-top: 20px;
+  font-family: "Exo-Regular";
+  font-size: 1.1em;
+}
+
+.count-basket-item {
+  width: 80px;
+}
+
+.delete-btn img {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+.navbar-watch {
+  padding: 0 0 45px 0;
+}
+
+.navbar-brand img {
+  width: 420px;
+}
+
+.mr-auto {
+  margin: 10px 0 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar-element {
+  outline: 0;
+  font-size: 2em;
+  font-family: "Exo-Thin";
+}
+
+.auth-reg {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Exo-Thin";
+  font-size: 1.15em;
+  margin: 7px 0 0 15px;
+}
+
+.auth-reg-item {
+  padding-right: 0 !important;
+}
+
+.auth-reg-item:first-child:after {
+  content: '|';
+  margin-left: 8px;
 }
