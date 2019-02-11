@@ -503,3 +503,24 @@ a:hover {
 .contacts p {
   margin-bottom: 0;
 }
+
+.slider-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.slider-content-text {
+  width: 50%;
+}
+
+.slider-content-image {
+  width: 50%;
+}
+
+.slider-content-image img {
+  width: 100%;
+  height: auto;
+}
