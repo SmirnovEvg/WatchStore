@@ -13,12 +13,20 @@
   src: url("../fonts/Exo2-Regular.ttf");
 }
 
-body {
+body, html {
   background-color: #fafafa;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
 }
 
 .view-container {
   margin-top: 20px;
+  height: 100%;
+  position: relative;
+  background-color: #fafafa;
 }
 
 .inLine .inLine-list {
@@ -386,6 +394,7 @@ a:hover {
   outline: 0;
   font-size: 2em;
   font-family: "Exo-Thin";
+  color: #000 !important;
 }
 
 .auth-reg {
@@ -400,9 +409,97 @@ a:hover {
 
 .auth-reg-item {
   padding-right: 0 !important;
+  color: #000 !important;
 }
 
 .auth-reg-item:first-child:after {
   content: '|';
   margin-left: 8px;
+}
+
+.navbar-toggler {
+  outline: 0 !important;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer {
+  height: auto;
+  padding: 30px 0;
+  background-color: #a7a7a7;
+  font-family: "Exo-Regular";
+  font-size: 1.2em;
+  color: #fafafa;
+}
+
+.news-mailing {
+  background-color: #fafafa;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 300px;
+  padding: 3px 10px 5px 10px;
+  margin-top: 15px;
+}
+
+.news-mailing input {
+  border: 0;
+  background-color: #fafafa;
+  font-family: "Exo-Thin";
+  width: 240px;
+  font-size: 0.9em;
+}
+
+.news-mailing button {
+  background-color: #fafafa;
+  border: 0;
+  width: 45px;
+  height: auto;
+  outline: 0;
+  cursor: pointer;
+}
+
+.news-mailing button img {
+  width: 100%;
+  height: auto;
+}
+
+.news-mailing button:hover {
+  opacity: 0.9;
+}
+
+.social {
+  margin-top: 12px;
+}
+
+.social img {
+  width: auto;
+  height: 41.45px;
+  margin-right: 7px;
+}
+
+.social img:hover {
+  opacity: 0.9;
+}
+
+.contacts {
+  font-family: "Exo-Thin";
+  margin-top: 4px;
+}
+
+.contacts a {
+  color: #fff;
+}
+
+.contacts p {
+  margin-bottom: 0;
 }
