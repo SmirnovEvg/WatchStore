@@ -545,3 +545,62 @@ a:hover {
   width: 100%;
   height: auto;
 }
+
+.main-icons {
+  background-color: #3fadce;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main-icons img {
+  width: 50px;
+  height: auto;
+}
+
+.info-about-company {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Exo-Thin";
+}
+
+.info-about-company h3 {
+  font-family: "Exo-Light";
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+
+.line {
+  margin: 40px 0;
+  height: 1px;
+  width: 100%;
+  background-color: #a7a7a7;
+  opacity: 0.5;
+}
+
+.brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.brands img {
+  width: 120px;
+  height: auto;
+}

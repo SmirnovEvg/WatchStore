@@ -135,6 +135,23 @@
   .slider-content {
     margin-top: 10px;
   }
+  .main-icons {
+    width: 75px;
+    height: 75px;
+  }
+  .main-icons img {
+    width: 45px;
+  }
+  .info-about-company {
+    margin-top: 70px;
+  }
+  .info-about-company h3 {
+    font-size: 1.3em;
+    margin-top: 5px;
+  }
+  .info-about-company p {
+    font-size: 0.95em;
+  }
 }
 
 @media (max-width: 991px) {
@@ -312,6 +329,30 @@
     width: 40%;
     margin-right: 10%;
   }
+  .main-icons {
+    width: 70px;
+    height: 70px;
+  }
+  .main-icons img {
+    width: 40px;
+  }
+  .info-about-company {
+    margin-top: 60px;
+  }
+  .info-about-company h3 {
+    font-size: 1em;
+    margin-top: 5px;
+  }
+  .info-about-company p {
+    font-size: 0.8em;
+  }
+  .brands {
+    margin-top: -15px;
+  }
+  .brands img {
+    width: 90px;
+    height: auto;
+  }
 }
 
 @media (max-width: 767px) {
@@ -464,6 +505,7 @@
   }
   .slider-content {
     width: 100%;
+    margin-bottom: 20px;
   }
   .slider-content-text {
     margin-top: 0;
@@ -484,6 +526,32 @@
   .slider-content-image {
     width: 50%;
     margin-right: 0;
+  }
+  .main-icons {
+    width: 70px;
+    height: 70px;
+  }
+  .main-icons img {
+    width: 40px;
+  }
+  width: 80px;
+  height: 80px;
+  img {
+    width: 50px;
+  }
+  .info-about-company {
+    margin-top: 20px;
+  }
+  .info-about-company h3 {
+    font-size: 1.5em;
+    margin-top: 5px;
+  }
+  .brands {
+    margin-top: -20px;
+  }
+  .brands img {
+    width: 70px;
+    height: auto;
   }
 }
 
@@ -612,6 +680,12 @@
   .slider-content-image {
     width: 50%;
     margin-right: 0;
+  }
+  .brands div {
+    width: 15%;
+  }
+  .brands img {
+    width: 100%;
   }
 }
 
@@ -744,8 +818,33 @@
   .contacts {
     margin: 10px 0 20px 0;
   }
-  .slider-content {
-    display: none;
+  .slider-content-text {
+    margin-left: 0;
+  }
+  .slider-content-text h2 {
+    font-size: 4vw;
+  }
+  .slider-content-text p {
+    font-size: 2.6vw;
+  }
+  .slider-content-text button {
+    margin-top: 8px;
+    width: 35vw;
+    height: 28px;
+    font-size: 3vw;
+    border-radius: 6px;
+  }
+  .brands {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  .brands div {
+    width: 30%;
+  }
+  .brands img {
+    width: 100%;
   }
 }
 
@@ -778,5 +877,24 @@
   }
   .count-basket-item {
     width: 50px;
+  }
+  .slider-content-image {
+    margin-top: 7px;
+  }
+  .slider-content-text {
+    margin-left: 0;
+  }
+  .slider-content-text h2 {
+    font-size: 3.9vw;
+  }
+  .slider-content-text p {
+    font-size: 2.7vw;
+  }
+  .slider-content-text button {
+    margin-top: 8px;
+    width: 35vw;
+    height: 20px;
+    font-size: 0.6em;
+    border-radius: 5px;
   }
 }
