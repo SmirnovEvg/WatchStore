@@ -123,6 +123,10 @@
     .contacts
         margin-top: 7px
 
+    .slider-content
+        margin-top: 10px
+
+
     
 @media (max-width: 991px)
     .inLine-list
@@ -268,7 +272,25 @@
     .contacts
         margin-top: 3px
 
-    
+    .slider-content        
+        &-text 
+            margin-top: 10px
+            width: 40%
+            margin-left: 10%
+            & h2 
+                font-size: 1.5em
+
+            & p 
+                font-size: 1em
+
+            & button
+                margin-top: 10px
+                width: 180px
+                height: 35px
+                font-size: 0.9em
+        &-image
+            width: 40%
+            margin-right: 10%
 
 
 @media (max-width: 767px)
@@ -402,6 +424,26 @@
     .contacts
         margin-top: 10px
 
+    .slider-content     
+        width: 100%     
+        &-text 
+            margin-top: 0
+            width: 50%
+            & h2 
+                font-size: 1.25em
+
+            & p 
+                font-size: 0.8em
+
+            & button
+                margin-top: 10px
+                width: 155px
+                height: 30px
+                font-size: 0.8em
+        &-image
+            width: 50%
+            margin-right: 0
+
 
 @media (max-width: 575px)
     .inLine-list
@@ -511,6 +553,24 @@
     .footer-element
         width: 87%
         margin: 0 auto
+
+    .slider-content        
+        &-text 
+            & h2 
+                font-size: 3.6vw
+
+            & p 
+                font-size: 2.3vw
+
+            & button
+                margin-top: 10px
+                width: 150px
+                height: 28px
+                font-size: 0.75em
+                border-radius: 8px
+        &-image
+            width: 50%
+            margin-right: 0    
 
 
 @media (max-width: 480px)
@@ -634,6 +694,9 @@
 
     .contacts
         margin: 10px 0 20px 0
+
+    .slider-content        
+        display: none
 
 
 @media (max-width: 320px)
