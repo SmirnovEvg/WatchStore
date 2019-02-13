@@ -391,7 +391,10 @@ a
             height: 40px
             border-radius: 12px
             margin-top: 25px
+            outline: none
+            cursor: pointer
             color: #fff
+            
     &-image 
         width: 50%
         & img 
@@ -434,3 +437,55 @@ a
     & img 
         width: 120px
         height: auto
+
+.recomend
+    display: flex
+    align-items: center
+    font-family: $f-thin
+    font-size: 1.4em
+    margin-bottom: 20px
+    & span 
+        margin: 0 15px
+
+.captionSlider
+    height: 100px
+    overflow: hidden
+    display: flex
+    justify-content: center
+    flex-direction: column
+
+.captionSlider h4
+    font-size: 1.3em
+    text-align: center
+    margin-top: 0
+    margin-bottom: 0
+    font-family: $f-thin
+
+.captionSlider span h4 
+    margin: 3px 0px
+    font-size: 1em
+
+.priseSlider
+    background-color: $main-color
+    width: 75px
+    margin: 0 auto
+    border-radius: 8px
+    color: #fff
+    margin: 4px auto
+
+.productSlider
+    height: auto
+    padding: 5px
+    margin: 0 5px 30px 5px
+    transition: 0.3s all ease
+    border-style: solid
+    border-color: $bgc-color
+    border-width: 1px
+    border-radius: 10px
+    & img 
+        width: 100%
+    &:hover
+        border-style: solid
+        border-color: $foot-color
+        border-width: 1px
+        border-radius: 10px  

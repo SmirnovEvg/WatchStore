@@ -534,6 +534,8 @@ a:hover {
   height: 40px;
   border-radius: 12px;
   margin-top: 25px;
+  outline: none;
+  cursor: pointer;
   color: #fff;
 }
 
@@ -603,4 +605,81 @@ a:hover {
 .brands img {
   width: 120px;
   height: auto;
+}
+
+.recomend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Exo-Thin";
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+.recomend span {
+  margin: 0 15px;
+}
+
+.captionSlider {
+  height: 100px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.captionSlider h4 {
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Exo-Thin";
+}
+
+.captionSlider span h4 {
+  margin: 3px 0px;
+  font-size: 1em;
+}
+
+.priseSlider {
+  background-color: #3fadce;
+  width: 75px;
+  margin: 0 auto;
+  border-radius: 8px;
+  color: #fff;
+  margin: 4px auto;
+}
+
+.productSlider {
+  height: auto;
+  padding: 5px;
+  margin: 0 5px 30px 5px;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  border-style: solid;
+  border-color: #fafafa;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.productSlider img {
+  width: 100%;
+}
+
+.productSlider:hover {
+  border-style: solid;
+  border-color: #a7a7a7;
+  border-width: 1px;
+  border-radius: 10px;
 }
