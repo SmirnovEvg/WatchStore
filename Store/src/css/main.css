@@ -18,6 +18,14 @@ body, html {
   height: 100%;
 }
 
+a {
+  outline: none !important;
+}
+
+button {
+  outline: none !important;
+}
+
 #root {
   height: 100%;
 }
@@ -408,6 +416,7 @@ a:hover {
 }
 
 .auth-reg-item {
+  outline: none;
   padding-right: 0 !important;
   color: #000 !important;
 }
@@ -415,6 +424,10 @@ a:hover {
 .auth-reg-item:first-child:after {
   content: '|';
   margin-left: 8px;
+}
+
+.brand {
+  outline: none;
 }
 
 .navbar-toggler {
@@ -704,4 +717,9 @@ a:hover {
 
 .sidebarBasket {
   margin-bottom: 40vh;
+}
+
+.underline {
+  border-bottom: 1px solid #a7a7a7;
+  background-color: #fafafa;
 }
