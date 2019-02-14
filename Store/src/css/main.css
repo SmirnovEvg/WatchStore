@@ -354,7 +354,7 @@ a:hover {
   border-bottom: 1px solid #a7a7a7;
 }
 
-.total-prise {
+.total-price {
   text-align: right;
   width: 100%;
   margin-top: 20px;
@@ -429,6 +429,7 @@ a:hover {
 }
 
 .footer {
+  margin-top: 30px;
   height: auto;
   padding: 30px 0;
   background-color: #a7a7a7;
@@ -663,7 +664,7 @@ a:hover {
 .productSlider {
   height: auto;
   padding: 5px;
-  margin: 0 5px 30px 5px;
+  margin: 0 5px 20px 5px;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
@@ -682,4 +683,25 @@ a:hover {
   border-color: #a7a7a7;
   border-width: 1px;
   border-radius: 10px;
+}
+
+.btn_Clean {
+  background-color: #ce603f !important;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.btn_Checkout {
+  background-color: #3fadce !important;
+  cursor: pointer;
+}
+
+.basketEmpty {
+  margin-top: 10px;
+  margin-bottom: 55vh;
+  font-family: "Exo-Thin";
+}
+
+.sidebarBasket {
+  margin-bottom: 40vh;
 }
