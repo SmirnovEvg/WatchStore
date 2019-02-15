@@ -746,3 +746,45 @@ a:hover {
   margin-bottom: 16px;
   margin-left: 10px;
 }
+
+.absolute {
+  position: absolute;
+  z-index: 9999;
+  background-color: #fafafa;
+  width: 60%;
+  right: 0;
+  -webkit-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+}
+
+.modalBasket-list-table {
+  width: 100%;
+  -webkit-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+}
+
+.modalBasket-list-table-item {
+  text-align: center;
+  font-family: "Exo-Regular";
+  font-size: 1em;
+  border-top: 1px solid #a7a7a7;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.modalBasket-list-table-item td {
+  padding: 0 10px;
+}
+
+.modalTotal-price {
+  text-align: right;
+  position: relative;
+  margin-top: 20px;
+  font-family: "Exo-Regular";
+  font-size: 1.1em;
+}
+
+.count-basket-item {
+  width: auto;
+}

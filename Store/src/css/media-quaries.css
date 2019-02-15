@@ -158,6 +158,9 @@
   .mapText p {
     margin-left: 60px;
   }
+  .absolute {
+    display: none;
+  }
 }
 
 @media (max-width: 991px) {
