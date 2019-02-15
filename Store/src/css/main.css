@@ -723,3 +723,26 @@ a:hover {
   border-bottom: 1px solid #a7a7a7;
   background-color: #fafafa;
 }
+
+.map {
+  width: 275px;
+  height: 325px;
+}
+
+.aboutContent {
+  font-family: "Exo-Thin";
+}
+
+.aboutContent p {
+  margin-bottom: 0;
+}
+
+.mapText {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.mapText p {
+  margin-bottom: 16px;
+  margin-left: 10px;
+}
