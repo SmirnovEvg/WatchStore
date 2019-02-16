@@ -271,7 +271,8 @@
   }
   .navbar-element {
     font-size: 1.3em;
-    padding: 5px 0;
+    padding: 5px 0 !important;
+    margin: 0px !important;
   }
   .auth-reg {
     display: block;
@@ -371,7 +372,7 @@
   }
   .underline {
     border-bottom: 0;
-    margin-left: 10px;
+    margin-left: 10px !important;
   }
   .aboutContent p {
     font-size: 0.85em;

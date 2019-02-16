@@ -400,6 +400,8 @@ a:hover {
 
 .navbar-element {
   outline: 0;
+  margin: 8px !important;
+  padding: 0px !important;
   font-size: 2em;
   font-family: "Exo-Thin";
   color: #000 !important;
@@ -787,4 +789,8 @@ a:hover {
 
 .count-basket-item {
   width: auto;
+}
+
+.none {
+  display: none;
 }
