@@ -462,7 +462,7 @@ a:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 300px;
+  width: 305px;
   padding: 3px 10px 5px 10px;
   margin-top: 15px;
 }
@@ -793,4 +793,10 @@ a:hover {
 
 .none {
   display: none;
+}
+
+.formFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
