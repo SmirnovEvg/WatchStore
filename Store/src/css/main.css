@@ -472,6 +472,7 @@ a:hover {
   background-color: #fafafa;
   font-family: "Exo-Thin";
   width: 240px;
+  outline: none !important;
   font-size: 0.9em;
 }
 
