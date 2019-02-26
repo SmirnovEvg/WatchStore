@@ -801,3 +801,111 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
 }
+
+.auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.auth h2 {
+  font-family: "Exo-Light";
+  margin-bottom: 15px;
+}
+
+.authForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.authForm input[type="text"] {
+  border: 1px solid #a7a7a7;
+  border-radius: 10px;
+  width: 250px;
+  height: 30px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  font-family: "Exo-Thin";
+  background-color: #fafafa;
+}
+
+.authForm input[type="button"] {
+  border: 0;
+  border-radius: 10px;
+  width: 250px;
+  padding: 2px 0 5px 0;
+  background-color: #3fadce;
+  font-family: "Exo-Thin";
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.reg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.reg h2 {
+  font-family: "Exo-Light";
+  margin-bottom: 15px;
+}
+
+.regForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.regForm input[type="text"] {
+  border: 1px solid #a7a7a7;
+  border-radius: 10px;
+  width: 250px;
+  height: 30px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  font-family: "Exo-Thin";
+  background-color: #fafafa;
+}
+
+.regForm input[type="button"] {
+  border: 0;
+  border-radius: 10px;
+  width: 250px;
+  padding: 2px 0 5px 0;
+  background-color: #3fadce;
+  font-family: "Exo-Thin";
+  color: #fafafa;
+  cursor: pointer;
+}

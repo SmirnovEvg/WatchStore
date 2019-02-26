@@ -17,6 +17,8 @@ import Watch from 'containers/watch'
 import Basket from 'containers/basket'
 import MainPage from 'containers/mainpage'
 import About from 'containers/about'
+import Registration from 'containers/registration'
+import Authorization from 'containers/authorization'
 
 const store = createStore(reducers, composeWithDevTools(
     applyMiddleware(thunk)
@@ -35,6 +37,8 @@ ReactDOM.render(
             <Route path='/watches/:id' component={Watch} />
             <Route path='/basket' component={Basket} />
             <Route path='/about' component={About} />
+            <Route path='/registration' component={Registration} />
+            <Route path='/authorization' component={Authorization} />
         </Router>
     </Provider>,
     document.getElementById('root')
